@@ -1,4 +1,4 @@
-# Основы работы во Viewport
+# Работа во Viewport
 
 ## Обзор Blender UI
 
