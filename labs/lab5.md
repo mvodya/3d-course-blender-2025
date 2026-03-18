@@ -38,7 +38,6 @@
 
 * Base Color
 * Roughness
-* Specular
 
 Для стекла / жидкости:
 
