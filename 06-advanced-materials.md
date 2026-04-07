@@ -198,12 +198,12 @@ PBR (Physically Based Rendering) - это метод визуализации м
 
 | Название текстуры     | Назначение                                                       | Цветовой формат | Пример                                                  |
 | --------------------- | ---------------------------------------------------------------- | --------------- | ------------------------------------------------------- |
-| Base Color (Albedo)   | Основной цвет поверхности, без теней и бликов                    | RGB             | ![Base Color Texture](assets/05_tex_albedo_demo.png)    |
-| Roughness             | Определяет шероховатость поверхности (0 - глянец, 1 - матовость) | Grayscale       | ![Roughness Texture](assets/05_tex_rough_demo.png)      |
-| Metallic              | Определяет, является ли материал металлом                        | Grayscale       | ![Metallic Texture](assets/05_tex_metallic_demo.png)    |
-| Normal Map            | Позволяет добавить мелкий рельеф без изменения геометрии         | RGB (Tangent)   | ![Normal Map Texture](assets/05_tex_normal_demo.png)    |
-| Height / Displacement | Используется для сильного рельефа (обычно через модификатор)     | Grayscale       | ![Height Map Texture](assets/05_tex_disp_demo.png)      |
-| Ambient Occlusion     | Отображает затемнение в углублениях                              | Grayscale       | ![Ambient Occlusion Texture](assets/05_tex_ao_demo.png) |
+| Base Color (Albedo)   | Основной цвет поверхности, без теней и бликов                    | RGB             | ![Base Color Texture](assets/06_tex_albedo_demo.png)    |
+| Roughness             | Определяет шероховатость поверхности (0 - глянец, 1 - матовость) | Grayscale       | ![Roughness Texture](assets/06_tex_rough_demo.png)      |
+| Metallic              | Определяет, является ли материал металлом                        | Grayscale       | ![Metallic Texture](assets/06_tex_metallic_demo.png)    |
+| Normal Map            | Позволяет добавить мелкий рельеф без изменения геометрии         | RGB (Tangent)   | ![Normal Map Texture](assets/06_tex_normal_demo.png)    |
+| Height / Displacement | Используется для сильного рельефа (обычно через модификатор)     | Grayscale       | ![Height Map Texture](assets/06_tex_disp_demo.png)      |
+| Ambient Occlusion     | Отображает затемнение в углублениях                              | Grayscale       | ![Ambient Occlusion Texture](assets/06_tex_ao_demo.png) |
 
 > ⚠️ Некоторые наборы текстур объединяют карты в один файл (например, R - AO, G - Roughness, B - Metallic)
 
@@ -218,7 +218,7 @@ PBR (Physically Based Rendering) - это метод визуализации м
 
 ### Подключение PBR-текстур в Blender
 
-![PBR Shader Editor](assets/05_pbr_shader_editor_demo.png)
+![PBR Shader Editor](assets/06_pbr_shader_editor_demo.png)
 
 Чтобы использовать PBR-материал:
 
@@ -233,7 +233,7 @@ PBR (Physically Based Rendering) - это метод визуализации м
    * Тип Color Space у Image Texture нужно поставить на Non-Color
    * Добавить Normal Map ноду и соединить её с Image Texture и шейдером
 
-![PBR Brickwall preview](assets/05_pbr_shader_editor_preview.png)
+![PBR Brickwall preview](assets/06_pbr_shader_editor_preview.png)
 
 ### Работа Normal Map
 
@@ -243,7 +243,7 @@ Normal Map - это специальная текстура, кодирующа�
 * Используется в Tangent Space, то есть отклонения задаются относительно самой поверхности
 * Blender требует подключать Normal Map через специальную Normal Map ноду (для преобразования в Tangent Space), иначе результат будет некорректным
 
-![Normal Map Demo](assets/05_normal_map_demo.png)
+![Normal Map Demo](assets/06_normal_map_demo.png)
 
 Для реалистичного эффекта также можно добавить Bump карту в дополнение к Normal Map, особенно для мелкого рельефа вроде пыли или потертостей.
 
