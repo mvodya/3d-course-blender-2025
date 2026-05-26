@@ -2,6 +2,7 @@
 
 - [Версия 2025 года](https://github.com/mvodya/3d-course-blender/tree/2025S1)
 - [Blender.org](https://www.blender.org)
+- [Таблица с баллами](https://docs.google.com/spreadsheets/d/1BuG2cfZHh9Mvngjsi93BLrkU-qgc5ZpadQSNAz5bA-w)
 
 Данный репозиторий содержит методические материалы для курса "3D моделирование для профессиональной деятельности", которые предназначены для обучения и преподавания Blender.
 
